@@ -103,7 +103,7 @@ $products=[$DogProd,$CatProd];
                 <h5 class="card-title">
             </h5>
                 <p>
-
+                <?php echo $prod->getIcon(); ?>
             <h5>Cibo:</h5>
             <?php echo toString($prod->getCibo());?>
             <h5>Cucce:</h5>
